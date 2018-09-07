@@ -1,7 +1,16 @@
 .menu_main {
   background-color: whitesmoke;
   width: 190px;
+  font-family: sans-serif;
+  padding: 6px;
 }
 .menu_main li {
   list-style-type: none;
+}
+.list-group-item {
+  padding: 5px;
+
+}
+.list-group-item i {
+  padding: 0 9px;
 }
