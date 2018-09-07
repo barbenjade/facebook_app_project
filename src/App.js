@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navigation from './navigation'
+import Menu from './menu.js';
+
+
 
 class App extends Component {
   render() {
