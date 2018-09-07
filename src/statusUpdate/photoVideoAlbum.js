@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export default class MakePost extends Component {
+export default class PhotoVideoAlbum extends Component {
 
   render() {
     return (
       <div>
-        Make Post
+        Photo/Video Album
       </div>
     );
   }

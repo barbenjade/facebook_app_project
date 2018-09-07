@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MakePost from './statusUpdate/makePost';
+import PhotoVideoAlbum from './statusUpdate/photoVideoAlbum';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         </p>
 
         <MakePost />
+        <PhotoVideoAlbum />
       </div>
     );
   }
