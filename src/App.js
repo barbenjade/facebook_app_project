@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MakePost from './statusUpdate/makePost';
-import PhotoVideoAlbum from './statusUpdate/photoVideoAlbum';
-import LiveVideo from './statusUpdate/liveVideo';
+import StatusUpdate from './statusUpdate/status_Update';
+
 
 class App extends Component {
   render() {
@@ -17,9 +16,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <MakePost />
-        <PhotoVideoAlbum />
-        <LiveVideo />
+        <StatusUpdate />
       </div>
     );
   }
