@@ -1,0 +1,7 @@
+.menu_main {
+  background-color: whitesmoke;
+  width: 190px;
+}
+.menu_main li {
+  list-style-type: none;
+}
