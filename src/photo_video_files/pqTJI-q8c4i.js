@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Q5DH2"]); }
+
+__d("FBStoriesSponsorRenderer.react",["cx","fbt","React","gkx"],(function(a,b,c,d,e,f,g,h){"use strict";__p&&__p();var i;i=babelHelpers.inherits(a,b("React").PureComponent);i&&i.prototype;a.prototype.render=function(){var a=this.props.currentThreadData;return!b("gkx")("AT6pBmH3mK7da_fPwhxi7rFZcT2yzHkS3pSgPYMN5XoxHG2HMBSoG2GiadDfEDKl7CUl1iEAkb0SGmeQHpy0DFUfGdlhu3-F7qbvWYhMqN9JJg")||!a||a.isLive||a.sponsorPageName==null?null:b("React").createElement("div",{className:"_2bmq"},h._("sponsored by {sponsor_page_name}",[h._param("sponsor_page_name",a.sponsorPageName)]))};function a(){i.apply(this,arguments)}e.exports=a}),null);

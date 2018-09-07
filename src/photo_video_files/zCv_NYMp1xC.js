@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["qbUAU"]); }
+
+__d("LiveVideoBroadcastCopyrightTakedownVideoOverlay.react",["cx","fbt","LiveVideoBroadcastVideoOverlay.react","React"],(function(a,b,c,d,e,f,g,h){__p&&__p();var i;i=babelHelpers.inherits(a,b("React").Component);i&&i.prototype;a.prototype.render=function(){"use strict";return b("React").createElement(b("LiveVideoBroadcastVideoOverlay.react"),null,b("React").createElement("div",{className:"_-7_"},h._("Your live video has been stopped.")))};function a(){"use strict";i.apply(this,arguments)}e.exports=a}),null);

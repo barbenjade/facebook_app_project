@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["FnGV4"]); }
+
+__d("LiveAPIPreviewPlayerBottomHelpText.react",["cx","fbt","React"],(function(a,b,c,d,e,f,g,h){"use strict";function a(a){return b("React").createElement("div",{className:"_62xj _62xk"},h._("3. Select {=Go Live} in the bottom right corner.",[h._param("=Go Live",b("React").createElement("span",{className:"_62xl"},h._("Go Live")))]))}e.exports=a}),null);

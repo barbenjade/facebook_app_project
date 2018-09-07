@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["e\/5tg"]); }
+
+__d("LiveVideoBroadcastCrosspostErrorMessageWrapper.react",["fbt","LiveVideoCrosspostingConfig","React","XUIError.react"],(function(a,b,c,d,e,f,g){"use strict";var h=b("LiveVideoCrosspostingConfig").maxCrossposts;function a(a){return a.selectedCount>h?b("React").createElement(b("XUIError.react"),{xuiError:g._("Crossposting is limited to a maximum of {max_count} pages.",[g._param("max_count",h)])},a.children):a.children}e.exports=a}),null);

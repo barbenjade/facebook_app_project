@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["IIexq"]); }
+
+__d("ReactComposerLiveVideoAttachment.react",["cx","CenteredContainer.react","React","ReactComposerConfig","ReactComposerContextTypes","XUISpinner.react"],(function(a,b,c,d,e,f,g){a=b("React").createClass({displayName:"ReactComposerLiveVideoAttachment",contextTypes:b("ReactComposerContextTypes"),props:{config:b("ReactComposerConfig").isRequired},render:function(){return b("React").createElement(b("CenteredContainer.react"),{vertical:!0,className:"_3wdy"},b("React").createElement(b("XUISpinner.react"),{size:"large"}))}});e.exports=a}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Lsl+v"]); }
+
+__d("SpotlightViewerBottomBarGroup",["cx","React"],(function(a,b,c,d,e,f,g){__p&&__p();var h;h=babelHelpers.inherits(a,b("React").Component);h&&h.prototype;a.prototype.render=function(){"use strict";var a=this.props.itemmargin||"right";a=(a=="left"?"marginLeft":"")+(a=="right"?" marginRight":"")+" _4_8i";return b("React").createElement("div",{className:a},this.props.children)};function a(){"use strict";h.apply(this,arguments)}e.exports=a}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["WYNeR"]); }
+
+__d("FBStoriesOptimisticUploadLabel.react",["cx","fbt","React","XUISpinner.react","XUIText.react"],(function(a,b,c,d,e,f,g,h){"use strict";a=function(){return b("React").createElement("div",{className:"_2m8x"},b("React").createElement(b("XUISpinner.react"),{className:"_2m8y",size:"large"})," ",b("React").createElement(b("XUIText.react"),{color:"primary",palette:"dark",size:"header4",weight:"normal"},h._("Uploading...")))};e.exports=a}),null);

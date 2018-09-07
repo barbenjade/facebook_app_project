@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["w3eNY"]); }
+
+__d("ChatEmployeeAwayWarning",["MercuryIDs","MercuryViewer","MessengerParticipants.bs"],(function(a,b,c,d,e,f){__p&&__p();a={updateEmployeeAwayWarning:function(a,c,d){__p&&__p();b("MessengerParticipants.bs").get(b("MercuryViewer").getID(),function(e){e=e.employee;e&&b("MessengerParticipants.bs").getMulti(a.participants,function(e){var f=!1,g=b("MercuryIDs").getUserIDFromThreadID(a.thread_id);if(!g)return;g="fbid:"+g;for(var h in e)g==e[h].id&&e[h].is_employee_away&&(f=!0);f?c():d()})})}};e.exports=a}),null);

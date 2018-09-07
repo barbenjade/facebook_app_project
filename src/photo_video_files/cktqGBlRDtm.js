@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["EqEHW"]); }
+
+__d("MercuryAttachmentError.react",["fbt","React","XUINotice.react","XUIText.react"],(function(a,b,c,d,e,f,g){"use strict";var h;h=babelHelpers.inherits(a,b("React").Component);h&&h.prototype;a.prototype.render=function(){return b("React").createElement(b("XUINotice.react"),{use:"warn"},b("React").createElement(b("XUIText.react"),{size:"meta1"},g._("This attachment could not be loaded.")))};function a(){h.apply(this,arguments)}e.exports=a}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["dIkbx"]); }
+
+__d("MessengerShareFilePreviewFunnelLoggerConstants",[],(function(a,b,c,d,e,f){"use strict";e.exports={CHAT_TAB:"chat_tab",MESSENGER_DOT_COM:"messenger_dot_com",PREPARE_FILES_FOR_SEND:"prepare_files_for_send",SHOW_FILE_PLACEHOLDER:"show_file_placeholder",UPLOAD_FILES_COMPLETE:"upload_files_complete",CANCEL_FILE_UPLOAD:"cancel_file_upload",UPLOAD_FILE_FAILED:"upload_file_failed"}}),null);

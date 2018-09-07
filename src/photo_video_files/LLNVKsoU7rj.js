@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Hvc\/c"]); }
+
+__d("MontageCardSticker_sticker.graphql",[],(function(a,b,c,d,e,f){"use strict";a=function(){var a=[{kind:"ScalarField",alias:null,name:"uri",args:null,storageKey:null}];return{kind:"Fragment",name:"MontageCardSticker_sticker",type:"Sticker",metadata:null,argumentDefinitions:[],selections:[{kind:"LinkedField",alias:null,name:"image",storageKey:null,args:null,concreteType:"Image",plural:!1,selections:a},{kind:"LinkedField",alias:null,name:"animated_image",storageKey:null,args:null,concreteType:"Image",plural:!1,selections:a}]}}();e.exports=a}),null);

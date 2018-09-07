@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["4ARZO"]); }
+
+__d("LiveVideoBroadcastPreviewOverlay.react",["cx","fbt","React"],(function(a,b,c,d,e,f,g,h){__p&&__p();var i;i=babelHelpers.inherits(a,b("React").Component);i&&i.prototype;a.prototype.render=function(){"use strict";var a=this.props.hidePreviewLabel?null:h._("PREVIEW");return b("React").createElement("div",{className:"_14j2"+(this.props.apiToggleVisible?" _4mn9":"")+" _2wrk"},a)};function a(){"use strict";i.apply(this,arguments)}e.exports=a}),null);

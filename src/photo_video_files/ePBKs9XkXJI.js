@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Bs5cB"]); }
+
+__d("ReactComposerLiveVideoAttachmentBootstrapper",["ReactComposerLiveVideoActions","ReactComposerStatusActions","ReactComposerTaggerActions"],(function(a,b,c,d,e,f){a={bootstrap:function(a,c){b("ReactComposerLiveVideoActions").setTaggersConfig(a,c.taggersConfig);var d=c.attachmentData;b("ReactComposerTaggerActions").updateTaggersSource(a,d.taggersSource);b("ReactComposerLiveVideoActions").setShowNUX(a,c.showLivePreviewButtonNUX);b("ReactComposerLiveVideoActions").setFunnelTags(a,c.funnelTags);b("ReactComposerStatusActions").setMentionsSource(a,d.mentionsSource);d.typeaheadReporter&&b("ReactComposerStatusActions").setTypeaheadReporter(a,d.typeaheadReporter)}};e.exports=a}),null);

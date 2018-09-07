@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["MUDeP"]); }
+
+__d("P2PPlatformContextShape",["P2PPlatformContextBannerShape","P2PPlatformContextProductItemShape","P2PPlatformContextShippingOptionShape","React"],(function(a,b,c,d,e,f){"use strict";a=b("React").PropTypes;c=a.shape({id:a.string,banner:b("P2PPlatformContextBannerShape"),buyerID:a.string,product:b("P2PPlatformContextProductItemShape"),sellerID:a.string,shippingOptions:a.arrayOf(b("P2PPlatformContextShippingOptionShape"))});e.exports=c}),null);

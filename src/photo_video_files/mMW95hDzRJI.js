@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["+Uj46"]); }
+
+__d("MontageStore",["FluxReduceStore","MontageDispatcher","MontageShouldUpdateReducer","MontageState"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g,h=[].concat(Object.values(b("MontageShouldUpdateReducer")));g=babelHelpers.inherits(a,b("FluxReduceStore"));g&&g.prototype;a.prototype.getInitialState=function(){return b("MontageState")};a.prototype.reduce=function(a,b){return h.reduce(function(a,c){return c(a,b)},a)};function a(){g.apply(this,arguments)}a.__moduleID=e.id;e.exports=new a(b("MontageDispatcher"))}),null);
