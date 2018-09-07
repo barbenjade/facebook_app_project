@@ -1,0 +1,42 @@
+.navwrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    background-color: #3b5998;
+    height: 50px;
+    font-size: 20px;
+}
+.navwrapperleft {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    color:	#ffffff;
+    align-content: center;
+}
+.navwrapperright {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-content: center;
+}
+.facebook {
+    grid-column-start: 4;
+}
+.textbox {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.name {
+    grid-column-start: 11;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 15px;
+}
+.home {
+    font-size: 15px;
+}
+
+
+
+
+
+/* display: block;
+padding: .8em; */
