@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["J7ogx"]); }
+
+__d("ModernLiveVideoCreateMutation",["RelayModern","ModernLiveVideoCreateMutation.graphql"],(function(a,b,c,d,e,f){"use strict";var g=b("RelayModern").commitMutation;b("RelayModern").graphql;var h=function(){return b("ModernLiveVideoCreateMutation.graphql")};function a(a,b,c){return g(a,{mutation:h,variables:{input:{actor_id:b.actorID,audience:b.audience,broadcast_infra_type:b.broadcastInfraType,override_app_id:b.overrideAppID,video_broadcast_initial_status:b.videoBroadcastInitialStatus,num_hosts:b.numHosts?b.numHosts:1}},onCompleted:c&&c.onCompleted,onError:c&&c.onError})}e.exports={commit:a}}),null);

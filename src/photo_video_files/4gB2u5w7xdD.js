@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["RjygU"]); }
+
+__d("MontageCardPhoto_photoAttachment.graphql",[],(function(a,b,c,d,e,f){"use strict";a={kind:"Fragment",name:"MontageCardPhoto_photoAttachment",type:"MessageImage",metadata:null,argumentDefinitions:[],selections:[{kind:"LinkedField",alias:null,name:"image",storageKey:null,args:null,concreteType:"Image",plural:!1,selections:[{kind:"ScalarField",alias:null,name:"uri",args:null,storageKey:null}]}]};e.exports=a}),null);

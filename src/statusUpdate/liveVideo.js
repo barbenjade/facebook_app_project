@@ -4,8 +4,8 @@ export default class LiveVideo extends Component {
 
   render() {
     return (
-      <div>
-        <i class="fas fa-video"></i>
+      <div className='live_video'>
+        <i className="fas fa-video"></i>
         <div>
             Live Video
         </div>

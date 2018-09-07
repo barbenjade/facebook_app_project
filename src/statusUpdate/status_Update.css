@@ -1,0 +1,35 @@
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.top_bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(235, 235, 235);
+    height: 33px;
+    width: 500px;
+}
+
+.make_post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_vid_alb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live_video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_box {
+    height: 100px;
+    width: 500px;
+}

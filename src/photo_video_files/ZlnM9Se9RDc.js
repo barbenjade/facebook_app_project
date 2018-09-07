@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["8cAga"]); }
+
+__d("ServiceWorkerLoginAndLogoutListener",["Event","ServiceWorkerLoginAndLogout"],(function(a,b,c,d,e,f){a={listen:function(a,c){var d=function(){if(c==="login")b("ServiceWorkerLoginAndLogout").login();else if(c==="logout")b("ServiceWorkerLoginAndLogout").logout();else throw new Error("bad login type given")};b("Event").listen(a,{click:d,submit:d})}};e.exports=a}),null);

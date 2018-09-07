@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["hxHNB"]); }
+
+__d("AdsLWIAdsAnimatorCreationPhase",["AdsLWIBaseSingleStepPhase","AdsLWIPhaseTypes","AdsLWIAdsAnimatorLayout"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g;g=babelHelpers.inherits(a,b("AdsLWIBaseSingleStepPhase"));g&&g.prototype;a.prototype.getLayout=function(){return b("AdsLWIAdsAnimatorLayout")};a.prototype.getPhaseType=function(){return b("AdsLWIPhaseTypes").ADS_ANIMATOR_CREATION};function a(){g.apply(this,arguments)}e.exports=new a()}),null);

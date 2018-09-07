@@ -7,8 +7,8 @@ export default class Input extends Component {
 
   render() {
     return (
-      <div>
-        <input type="text" placeholder="What's on your mind, Teren?" />
+      <div className='input'>
+        <input className='text_box' type="text" placeholder="What's on your mind, Teren?" />
       </div>
     );
   }

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["aLUo9"]); }
+
+__d("LiveVideoBroadcastComposerRHCTooltip.react",["ix","cx","Image.react","React","Tooltip.react","asset"],(function(a,b,c,d,e,f,g,h){"use strict";function a(a){return b("React").createElement(b("Tooltip.react"),{alignH:"left",position:"above",tooltip:b("React").createElement("div",{className:"_3-7m"},a.tooltipText)},b("React").createElement(b("Image.react"),{className:"_5igb",src:g("481013")}))}e.exports=a}),null);

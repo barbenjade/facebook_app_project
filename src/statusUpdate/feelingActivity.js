@@ -8,7 +8,11 @@ export default class FeelingActivity extends Component {
   render() {
     return (
       <div>
-        Feeling/Activity
+        <i className="far fa-grin"></i>
+        <div>
+            Feeling/Activity
+        </div>
+        
       </div>
     );
   }

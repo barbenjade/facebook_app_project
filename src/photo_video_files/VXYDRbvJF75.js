@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["vW6Il"]); }
+
+__d("IntegrityContextTriggerBootloader",["Bootloader"],(function(a,b,c,d,e,f){"use strict";__p&&__p();function g(a,b){a=a.triggerLoggerExtraData||null;b=b&&b.getExtraDataForTriggerLogger()||null;return babelHelpers["extends"]({},a,b)}function a(a){b("Bootloader").loadModules(["IntegrityContextTriggerGlimpseAnimator","IntegrityContextTriggerLoggerManager"],function(b,c){var d=b.initAnim(a);b=function(){return g(a,d)};c.initLogger(a,b)},"IntegrityContextTriggerBootloader")}e.exports={bootload:a}}),null);
+__d("ProfileViewAsTypeahead",["URI","goURI"],(function(a,b,c,d,e,f){a={init:function(a,c,d,e){a.subscribe("select",function(a,f){a=new(b("URI"))(c).addQueryData({viewas:f.selected.uid,returnto:d,privacy_source:e});b("goURI")(a.toString(),!0)})}};e.exports=a}),null);

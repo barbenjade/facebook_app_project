@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["6s7qF"]); }
+
+__d("LiveAPIPreviewPlayerSpinner.react",["cx","fbt","CenteredContainer.react","React","XUISpinner.react","XUIText.react"],(function(a,b,c,d,e,f,g,h){"use strict";function a(a){return b("React").createElement("div",null,b("React").createElement("div",{className:"_3k7-"},b("React").createElement(b("XUISpinner.react"),{background:"light",size:"large"})),b("React").createElement(b("CenteredContainer.react"),{className:"_37bq",fullHeight:!0,horizonal:!0,vertical:!0},b("React").createElement(b("XUIText.react"),{className:"_3k80",shade:"light",size:"xlarge_DEPRECATED",weight:"bold"},h._("Fetching video stream...")),h._("This can take a few seconds")))}e.exports=a}),null);

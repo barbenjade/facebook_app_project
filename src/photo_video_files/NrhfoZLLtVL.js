@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["2oP91"]); }
+
+__d("LiveVideoBroadcastVideoOverlay.react",["cx","React"],(function(a,b,c,d,e,f,g){__p&&__p();var h;h=babelHelpers.inherits(a,b("React").Component);h&&h.prototype;a.prototype.render=function(){"use strict";return b("React").createElement("div",{className:"_5nnp"+(this.props.suppressPointerEvents?" _3nsu":"")+(this.props.leftAligned?" _b3j":"")},this.props.children)};function a(){"use strict";h.apply(this,arguments)}e.exports=a}),null);

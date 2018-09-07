@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-import MakePost from './makePost';
+import TopBar from './top_bar';
 import PhotoVideo from './photoVideo';
-import PhotoVideoAlbum from './photoVideoAlbum';
-import LiveVideo from './liveVideo';
 import Input from './input';
 import FeelingActivity from './feelingActivity';
 import Other from './other';
+
+import './status_Update.css';
+
 
 
 
@@ -17,9 +18,8 @@ class StatusUpdate extends Component {
         
         <div>
 
-          <MakePost />
-          <PhotoVideoAlbum />
-          <LiveVideo />
+          <TopBar />
+
           <Input />
           <PhotoVideo />
           <FeelingActivity />

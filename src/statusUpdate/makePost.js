@@ -4,8 +4,8 @@ export default class MakePost extends Component {
 
   render() {
     return (
-      <div>
-        <i class="fas fa-pencil-alt"></i>
+      <div className='make_post'>
+        <i className="fas fa-pencil-alt"></i>
         <div>
         Make Post
         </div>

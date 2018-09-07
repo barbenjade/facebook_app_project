@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["oL52z"]); }
+
+__d("IgnoreMessagesLoggingEvent",[],(function(a,b,c,d,e,f){e.exports=Object.freeze({IGNORE_CLICKED:"ignore_clicked",IGNORE_CONFIRMED:"ignore_confirmed",BLOCK_CLICKED:"block_clicked",BLOCK_CONFIRMED:"block_confirmed",GROUP_WITH_IGNORED_PERSON_WARNING:"group_with_ignored_person_warning",GROUP_WITH_BLOCKED_PERSON_WARNING:"group_with_blocked_person_warning",MESSAGE_IGNORED:"message_ignored"})}),null);

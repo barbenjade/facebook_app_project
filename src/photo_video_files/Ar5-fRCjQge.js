@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["xw\/9w"]); }
+
+__d("XGroupDeleteReportedContentController",["XController"],(function(a,b,c,d,e,f){e.exports=b("XController").create("/groups/reported_content/delete/",{group_id:{type:"FBID"},reportable_id:{type:"FBID"},story_id:{type:"String"},author_consequence:{type:"Enum",enumType:1},source:{type:"Enum",enumType:1},mute_duration:{type:"Int"},delete_posts:{type:"Bool",defaultValue:!1},delete_invites:{type:"Bool",defaultValue:!1},delete_comments:{type:"Bool",defaultValue:!1},delete_poll_options:{type:"Bool",defaultValue:!1},delete_story_threads:{type:"Bool",defaultValue:!1},apply_to_other_groups:{type:"Bool",defaultValue:!1},location:{type:"Enum",enumType:0},author_id_if_action_on_author_only:{type:"FBID"}})}),null);

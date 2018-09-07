@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["f+9Tv"]); }
+
+__d("ShowsRenderIfVideoTypeEpisodeContainer.react",["ComposerVideoShowsStore","FluxContainer","FluxReduceStore","React"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g;g=babelHelpers.inherits(a,b("React").PureComponent);g&&g.prototype;a.getStores=function(){return[b("ComposerVideoShowsStore")]};a.calculateState=function(){var a=b("ComposerVideoShowsStore").getState();a=a.isEpisode;return{isEpisode:!!a}};a.prototype.render=function(){return b("React").createElement("div",null,this.state.isEpisode?this.props.children:null)};function a(){g.apply(this,arguments)}e.exports=b("FluxContainer").create(a)}),null);

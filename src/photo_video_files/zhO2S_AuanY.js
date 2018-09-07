@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["8u5js"]); }
+
+__d("MontageViewerSingleThread_montageThread.graphql",[],(function(a,b,c,d,e,f){"use strict";a={kind:"Fragment",name:"MontageViewerSingleThread_montageThread",type:"MessageThread",metadata:null,argumentDefinitions:[{kind:"LocalArgument",name:"count",type:"Int",defaultValue:100}],selections:[{kind:"LinkedField",alias:null,name:"messages",storageKey:null,args:[{kind:"Variable",name:"last",variableName:"count",type:"Int"}],concreteType:"MessagesOfThreadConnection",plural:!1,selections:[{kind:"FragmentSpread",name:"MontageSpotlightViewer_messages",args:null}]}]};e.exports=a}),null);

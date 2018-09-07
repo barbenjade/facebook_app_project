@@ -5,7 +5,10 @@ export default class PhotoVideo  extends Component {
   render() {
     return (
       <div>
-        Photo/Video        
+        <i className="far fa-image"></i>
+        <div>
+            Photo/Video
+        </div>        
       </div>
     );
   }

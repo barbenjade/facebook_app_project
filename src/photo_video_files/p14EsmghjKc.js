@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["B\/sSh"]); }
+
+__d("FBStoriesVideoHelper",["CameraPostTypes","FBLogger","VideoPlayerOrigins"],(function(a,b,c,d,e,f){"use strict";a={getVideoPlayerOrigins:function(a){switch(a){case b("CameraPostTypes").DIRECT:case b("CameraPostTypes").DIRECT_NUX:case b("CameraPostTypes").GROUP_DIRECT:return b("VideoPlayerOrigins").DIRECT_INBOX;case b("CameraPostTypes").STORY:case b("CameraPostTypes").STORY_NUX:case b("CameraPostTypes").EVENT_STORY:case b("CameraPostTypes").GROUP_STORY:case b("CameraPostTypes").PAGE_STORY:return b("VideoPlayerOrigins").FB_STORIES;default:b("FBLogger")("FIXME").mustfix("invalid Camera Post Type "+a);return b("VideoPlayerOrigins").BACKSTAGE}}};e.exports=a}),null);

@@ -4,8 +4,8 @@ export default class PhotoVideoAlbum extends Component {
 
   render() {
     return (
-      <div>
-        <i class="fas fa-book"></i>
+      <div className='photo_vid_alb'>
+        <i className="fas fa-book"></i>
         <div>
             Photo/Video Album
         </div>
