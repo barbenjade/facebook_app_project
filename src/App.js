@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import MakePost from './statusUpdate/makePost';
 import PhotoVideoAlbum from './statusUpdate/photoVideoAlbum';
+import LiveVideo from './statusUpdate/liveVideo';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
 
         <MakePost />
         <PhotoVideoAlbum />
+        <LiveVideo />
       </div>
     );
   }
