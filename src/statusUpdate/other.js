@@ -7,7 +7,7 @@ export default class Other extends Component {
 
   render() {
     return (
-      <div>
+      <div className='other'>
         ...  
       </div>
     );

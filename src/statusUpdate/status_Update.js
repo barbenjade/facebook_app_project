@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
 import TopBar from './top_bar';
-import PhotoVideo from './photoVideo';
 import Input from './input';
-import FeelingActivity from './feelingActivity';
-import Other from './other';
+import BottomBar from './bottom_bar';
+
 
 import './status_Update.css';
 
@@ -21,9 +20,8 @@ class StatusUpdate extends Component {
           <TopBar />
 
           <Input />
-          <PhotoVideo />
-          <FeelingActivity />
-          <Other />
+
+          <BottomBar />
 
         </div>
       );

@@ -4,7 +4,7 @@ export default class PhotoVideo  extends Component {
 
   render() {
     return (
-      <div>
+      <div className='photo_vid'>
         <i className="far fa-image"></i>
         <div>
             Photo/Video

@@ -5,7 +5,7 @@
 
 .top_bar {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: rgb(235, 235, 235);
     height: 33px;
     width: 500px;
@@ -33,3 +33,33 @@
     height: 100px;
     width: 500px;
 }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom_bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.photo_vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feeling_activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
